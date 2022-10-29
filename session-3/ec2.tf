@@ -8,6 +8,10 @@ resource "aws_instance" "main" {
 } 
 // reference to resource:
 // first_label.ssecond_label.attribute
+// reference to input variable
+// var.variable.name
+// reference to data source
+// data.first_label.ssecond_label.attribute
 // data types:
 // 1. string = always uses double quotations
 // 2. number = never uses double quotationos
